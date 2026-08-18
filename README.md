@@ -1,4 +1,4 @@
-# Proyecto 3 - Base G1: Motor de Lógica Difusa (Fuzzy Logic)
+# Motor de Lógica Difusa (Fuzzy Logic)
 
 Sistema de inferencia difusa (Mamdani) en C++ aplicado al control de dirección de un robot con dos sensores de distancia (izquierdo y derecho) y un sensor de velocidad. A partir de las mediciones de entrada, el motor calcula mediante fuzzificación, evaluación de reglas y desfuzzificación por centroide una velocidad de giro (`Velocidad_Giro`) para evitar obstáculos.
 
