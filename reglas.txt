@@ -1,0 +1,15 @@
+SI Distancia ES DerechaCercana Y Velocidad ES Alta ENTONCES Velocidad_Giro ES GiroFuerteIzquierda
+SI Distancia ES DerechaCercana Y Velocidad ES Media ENTONCES Velocidad_Giro ES GiroFuerteIzquierda
+SI Distancia ES DerechaCercana Y Velocidad ES Baja ENTONCES Velocidad_Giro ES GiroSuaveIzquierda
+SI Distancia ES DerechaMedia Y Velocidad ES Alta ENTONCES Velocidad_Giro ES GiroSuaveIzquierda
+SI Distancia ES DerechaMedia Y Velocidad ES Media ENTONCES Velocidad_Giro ES GiroSuaveIzquierda
+SI Distancia ES IzquierdaCercana Y Velocidad ES Alta ENTONCES Velocidad_Giro ES GiroFuerteDerecha
+SI Distancia ES IzquierdaCercana Y Velocidad ES Media ENTONCES Velocidad_Giro ES GiroFuerteDerecha
+SI Distancia ES IzquierdaCercana Y Velocidad ES Baja ENTONCES Velocidad_Giro ES GiroSuaveDerecha
+SI Distancia ES IzquierdaMedia Y Velocidad ES Alta ENTONCES Velocidad_Giro ES GiroSuaveDerecha
+SI Distancia ES IzquierdaMedia Y Velocidad ES Media ENTONCES Velocidad_Giro ES GiroSuaveDerecha
+SI Distancia ES Centrado Y Velocidad ES Alta ENTONCES Velocidad_Giro ES GiroFuerteIzquierda
+SI Distancia ES Centrado Y Velocidad ES Media ENTONCES Velocidad_Giro ES GiroSuaveIzquierda
+SI Distancia ES IzquierdaLejana ENTONCES Velocidad_Giro ES SinGiro
+SI Distancia ES DerechaLejana ENTONCES Velocidad_Giro ES SinGiro
+SI Distancia ES Centrado Y Velocidad ES Baja ENTONCES Velocidad_Giro ES SinGiro

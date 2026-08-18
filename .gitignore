@@ -1,0 +1,16 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.out
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# Editor/OS
+.vscode/
+.vs/
+*.swp
+.DS_Store
+Thumbs.db
